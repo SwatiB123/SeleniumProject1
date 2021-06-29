@@ -1,0 +1,6 @@
+com\qa\testscripts\TestBase.class
+com\qa\testscripts\TC_AjioSearchProduct_01.class
+com\qa\pages\AjioPages.class
+com\qa\utility\ExcelUtility.class
+com\qa\testscripts\TC_AjioCustomerCare_02.class
+com\qa\utility\Reporting.class

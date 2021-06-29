@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Automation">
+              <span class="suite-name border-passed">Test Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Automation">
+                    <span>C:\Users\Priti\Desktop\LP IAT(Batch 8)\SeleniumProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Automation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Automation" class="hide-methods passed suite-Test_Automation"> (hide)</a> <!-- hide-methods passed suite-Test_Automation -->
+                      <a href="#" panel-name="suite-Test_Automation" class="show-methods passed suite-Test_Automation"> (show)</a> <!-- show-methods passed suite-Test_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioSearchProduct_01" hash-for-method="SearchProducts(Jackets)">SearchProducts(Jackets)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioSearchProduct_01" hash-for-method="SearchProducts(Jeans)">SearchProducts(Jeans)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioSearchProduct_01" hash-for-method="SearchProducts(Sarees)">SearchProducts(Sarees)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioSearchProduct_01" hash-for-method="SearchProducts(Kurti)">SearchProducts(Kurti)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioCustomerCare_02" hash-for-method="SearchTopics(Returns FAQs)">SearchTopics(Returns FAQs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioCustomerCare_02" hash-for-method="SearchTopics(Shipping FAQs)">SearchTopics(Shipping FAQs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioCustomerCare_02" hash-for-method="SearchTopics(Payment FAQs)">SearchTopics(Payment FAQs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation" title="com.qa.testscripts.TC_AjioCustomerCare_02" hash-for-method="SearchTopics(Cancellation FAQs)">SearchTopics(Cancellation FAQs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Automation" class="panel Test_Automation">
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testscripts.TC_AjioCustomerCare_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTopics(Returns FAQs)">
+                  </a> <!-- SearchTopics(Returns FAQs) -->
+                  <span class="method-name">SearchTopics</span>
+                  <span class="parameters">(Returns FAQs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTopics(Shipping FAQs)">
+                  </a> <!-- SearchTopics(Shipping FAQs) -->
+                  <span class="method-name">SearchTopics</span>
+                  <span class="parameters">(Shipping FAQs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTopics(Payment FAQs)">
+                  </a> <!-- SearchTopics(Payment FAQs) -->
+                  <span class="method-name">SearchTopics</span>
+                  <span class="parameters">(Payment FAQs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchTopics(Cancellation FAQs)">
+                  </a> <!-- SearchTopics(Cancellation FAQs) -->
+                  <span class="method-name">SearchTopics</span>
+                  <span class="parameters">(Cancellation FAQs)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+          <div class="suite-Test_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testscripts.TC_AjioSearchProduct_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProducts(Jackets)">
+                  </a> <!-- SearchProducts(Jackets) -->
+                  <span class="method-name">SearchProducts</span>
+                  <span class="parameters">(Jackets)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProducts(Jeans)">
+                  </a> <!-- SearchProducts(Jeans) -->
+                  <span class="method-name">SearchProducts</span>
+                  <span class="parameters">(Jeans)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProducts(Sarees)">
+                  </a> <!-- SearchProducts(Sarees) -->
+                  <span class="method-name">SearchProducts</span>
+                  <span class="parameters">(Sarees)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProducts(Kurti)">
+                  </a> <!-- SearchProducts(Kurti) -->
+                  <span class="method-name">SearchProducts</span>
+                  <span class="parameters">(Kurti)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation-class-passed -->
+        </div> <!-- panel Test_Automation -->
+        <div panel-name="test-xml-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Priti\Desktop\LP IAT(Batch 8)\SeleniumProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Test Automation&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.utility.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Functional Testing for Ajio&quot;&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.ajio.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testscripts.TC_AjioCustomerCare_02&quot;/&gt;
+      &lt;class name=&quot;com.qa.testscripts.TC_AjioSearchProduct_01&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functional Testing for Ajio --&gt;
+&lt;/suite&gt; &lt;!-- Test Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Functional Testing for Ajio (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Automation');
+function tableData_Test_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SearchProducts')
+data.setCell(0, 2, 'com.qa.testscripts.TC_AjioSearchProduct_01')
+data.setCell(0, 3, 25773);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchProducts')
+data.setCell(1, 2, 'com.qa.testscripts.TC_AjioSearchProduct_01')
+data.setCell(1, 3, 24397);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SearchProducts')
+data.setCell(2, 2, 'com.qa.testscripts.TC_AjioSearchProduct_01')
+data.setCell(2, 3, 24215);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SearchTopics')
+data.setCell(3, 2, 'com.qa.testscripts.TC_AjioCustomerCare_02')
+data.setCell(3, 3, 21817);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SearchProducts')
+data.setCell(4, 2, 'com.qa.testscripts.TC_AjioSearchProduct_01')
+data.setCell(4, 3, 21719);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SearchTopics')
+data.setCell(5, 2, 'com.qa.testscripts.TC_AjioCustomerCare_02')
+data.setCell(5, 3, 20451);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SearchTopics')
+data.setCell(6, 2, 'com.qa.testscripts.TC_AjioCustomerCare_02')
+data.setCell(6, 3, 19772);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SearchTopics')
+data.setCell(7, 2, 'com.qa.testscripts.TC_AjioCustomerCare_02')
+data.setCell(7, 3, 18892);
+window.suiteTableData['Test_Automation']= { tableData: data, tableDiv: 'times-div-Test_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Test_Automation">
+              </div> <!-- times-div-Test_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProducts(Jackets)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Products loaded are: 45</span>
+                <span class="reporter-method-output">LEVIS
+Lightly Washed Trucker Jacket with Insert Pockets
+Rs. 4,999 </span>
+                <span class="reporter-method-output">QUICK VIEW
+JOHN PLAYERS JEANS
+Slim Fit Zip-Front Biker Jacket with Textured Collar
+Rs. 2,450 Rs. 4,999 (51% off)</span>
+                <span class="reporter-method-output">High Star
+Denim Jacket with Flap Pockets
+Rs. 952 Rs. 2,799 (66% off)</span>
+                <span class="reporter-method-output">NIKE
+Trail Running Jacket with Hoodie
+Rs. 3,248 Rs. 6,495 (50% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Bomber Jacket with Short Zip Placket
+Rs. 700 Rs. 1,999 (65% off)</span>
+                <span class="reporter-method-output">FLYING MACHINE
+Padded Zip-Front Jacket
+Rs. 1,979 Rs. 3,599 (45% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Zip-Front Jacket with Insert Pockets
+Rs. 700 Rs. 1,999 (65% off)</span>
+                <span class="reporter-method-output">PERFORMAX
+High-Neck Zip-Front Track Jacket
+Rs. 896 Rs. 1,299 (31% off)</span>
+                <span class="reporter-method-output">High Star
+Washed Button-Down Denim Jacket with Flap Pockets
+Rs. 800 Rs. 2,499 (68% off)</span>
+                <span class="reporter-method-output">High Star
+Heavily-Washed Button-Down Denim Jacket
+Rs. 1,092 Rs. 2,799 (61% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Printed Zip-Front Jacket with Insert Pockets
+Rs. 700 Rs. 1,999 (65% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Denim Jacket with Patch Pockets
+Rs. 900 Rs. 1,999 (55% off)</span>
+                <span class="reporter-method-output">High Star
+Button-Down Denim Jacket with Flap Pockets
+Rs. 2,499 </span>
+                <span class="reporter-method-output">LEVIS
+Varsity Zip-Front Bomber Jacket
+Rs. 2,250 Rs. 4,999 (55% off)</span>
+                <span class="reporter-method-output">Teamspirit
+Winter Zip-Front Puffer Jacket
+Rs. 1,440 Rs. 2,999 (52% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Panelled Zip-Front Jacket with Insert Pockets
+Rs. 700 Rs. 1,999 (65% off)</span>
+                <span class="reporter-method-output">Rare Rabbit
+Insert Pockets Jacket with Zip Detail
+Rs. 2,699 Rs. 4,999 (46% off)</span>
+                <span class="reporter-method-output">U.S. Polo Assn.
+Camouflage Print Zip-Front Hooded Jacket
+Rs. 4,499 </span>
+                <span class="reporter-method-output">ALTHEORY
+Denim Twill Trucker Jacket
+Rs. 1,199 Rs. 1,999 (40% off)</span>
+                <span class="reporter-method-output">LEVIS
+Washed Button-Down Denim Trucker Jacket
+Rs. 4,999 </span>
+                <span class="reporter-method-output">SUPERDRY
+Bomber Jacket with Typography
+Rs. 6,899 Rs. 9,999 (31% off)</span>
+                <span class="reporter-method-output">SUPERDRY
+Rookie Down Parka Hoodie Jacket
+Rs. 11,589 Rs. 18,999 (39% off)</span>
+                <span class="reporter-method-output">High Star
+Heavily Washed Panelled Denim Jacket
+Rs. 725 Rs. 2,499 (71% off)</span>
+                <span class="reporter-method-output">High Star
+Lightly Washed Denim Jacket
+Rs. 1,148 Rs. 2,799 (59% off)</span>
+                <span class="reporter-method-output">PERFORMAX
+Quick Dry Running Jacket with Mask
+Rs. 689 Rs. 999 (31% off)</span>
+                <span class="reporter-method-output">KENNETH COLE
+Textured Zip-Front Jacket with Insert Pockets
+Rs. 2,923 Rs. 6,495 (55% off)</span>
+                <span class="reporter-method-output">SUPERDRY
+Hooded Zip-Front Fuji Jacket
+Rs. 6,709 Rs. 10,999 (39% off)</span>
+                <span class="reporter-method-output">High Star
+Button-Front Jacket with Insert Pockets
+Rs. 784 Rs. 2,799 (72% off)</span>
+                <span class="reporter-method-output">SPIRIT
+High-Neck Zip-Front Jacket
+Rs. 1,329 Rs. 3,797 (65% off)</span>
+                <span class="reporter-method-output">SUPERDRY SPORT
+Training reversible gilet, 07x, l
+Rs. 6,899 Rs. 9,999 (31% off)</span>
+                <span class="reporter-method-output">Pepe Jeans
+Zip-Front Jacket with Insert Pockets
+Rs. 1,575 Rs. 3,499 (55% off)</span>
+                <span class="reporter-method-output">Blue Saint
+Button-Down Jacket with Insert Pockets
+Rs. 1,085 Rs. 3,099 (65% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Jacket with Patch Pockets
+Rs. 900 Rs. 1,999 (55% off)</span>
+                <span class="reporter-method-output">SUPERDRY
+SDX Parka Jacket with Fur-Lined Hood
+Rs. 11,039 Rs. 15,999 (31% off)</span>
+                <span class="reporter-method-output">Puma
+Ferrari Hooded Sweat Jacket
+Rs. 5,199 Rs. 7,999 (35% off)</span>
+                <span class="reporter-method-output">NETPLAY
+Checked Reversible Zip-Front Jacket
+Rs. 1,715 Rs. 3,499 (51% off)</span>
+                <span class="reporter-method-output">DENIZEN FROM LEVIS
+Button-Down Trucker Jacket with Flap Pockets
+Rs. 1,799 Rs. 2,999 (40% off)</span>
+                <span class="reporter-method-output">SUPERDRY
+Ottoman Zip-Front Hooded Windcheater Jacket
+Rs. 7,899 Rs. 9,999 (21% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Panelled Jacket with Flap Pockets
+Rs. 900 Rs. 1,999 (55% off)</span>
+                <span class="reporter-method-output">NETPLAY
+Checked Reversible Zip-Front Jacket
+Rs. 1,715 Rs. 3,499 (51% off)</span>
+                <span class="reporter-method-output">GAP
+Fleece Zip-Up Jacket
+Rs. 2,500 Rs. 4,999 (50% off)</span>
+                <span class="reporter-method-output">LEVIS
+Sleeveless Padded Zip-Front Jacket
+Rs. 1,845 Rs. 4,099 (55% off)</span>
+                <span class="reporter-method-output">Pepe Jeans
+Bertie IP Panelled Denim Trucker Jacket
+Rs. 2,989 Rs. 4,599 (35% off)</span>
+                <span class="reporter-method-output">PERFORMAX
+Panelled Zip-Front Jacket
+Rs. 689 Rs. 999 (31% off)</span>
+                <span class="reporter-method-output">ARMANI EXCHANGE
+Zip-Front Bomber Jacket with Graphic Print Back
+Rs. 15,299 Rs. 29,999 (49% off)</span>
+                <span class="reporter-method-output">Product is Searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProducts(Jeans)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Products loaded are: 45</span>
+                <span class="reporter-method-output">DNMX
+Mid-Rise Fitted Jeans
+Rs. 679 Rs. 799 (15% off)</span>
+                <span class="reporter-method-output">QUICK VIEW
+Hubberholme
+Mid-Wash Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">U.S. Polo Assn.
+Regallo Light-Wash Skinny Jeans
+Rs. 1,400 Rs. 2,799 (50% off)</span>
+                <span class="reporter-method-output">ARMANI EXCHANGE
+Lightly Washed Straight Fit Jeans
+Rs. 6,929 Rs. 8,999 (23% off)</span>
+                <span class="reporter-method-output">G STAR RAW
+3301 Mid Wash Slim Jeans
+Rs. 7,999 </span>
+                <span class="reporter-method-output">ARMANI EXCHANGE
+Washed Slim Fit Jeans
+Rs. 7,799 Rs. 12,999 (40% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Mid-Rise Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">DENIZEN FROM LEVIS
+288 Washed Skinny Fit Freedom Jeans
+Rs. 1,364 Rs. 2,099 (35% off)</span>
+                <span class="reporter-method-output">iVOC
+Solid Jogger Jeans with Drawstring
+Rs. 869 Rs. 1,799 (52% off)</span>
+                <span class="reporter-method-output">UNITED COLORS OF BENETTON
+Lightly Washed Mid-Rise Slim Fit Jeans
+Rs. 2,474 Rs. 3,299 (25% off)</span>
+                <span class="reporter-method-output">U.S. Polo Assn.
+Washed Distressed Skinny Jeans
+Rs. 1,649 Rs. 2,999 (45% off)</span>
+                <span class="reporter-method-output">GAS
+Toki Mid-Wash Straight Fit Jeans
+Rs. 4,829 Rs. 6,999 (31% off)</span>
+                <span class="reporter-method-output">iVOC
+Solid Jogger Jeans with Drawstring
+Rs. 859 Rs. 1,799 (52% off)</span>
+                <span class="reporter-method-output">DNMX
+Jeggings with Elasticated Waist
+Rs. 599 Rs. 999 (40% off)</span>
+                <span class="reporter-method-output">DNMX
+Lightly Washed Fitted Jeans
+Rs. 679 Rs. 799 (15% off)</span>
+                <span class="reporter-method-output">LEVIS
+Slim Fit Jeans
+Rs. 2,099 Rs. 2,799 (25% off)</span>
+                <span class="reporter-method-output">iVOC
+Mid-Rise Jogger Jeans with Zip Pocket
+Rs. 859 Rs. 1,799 (52% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Mid-Wash Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">LEVIS
+Straight Fit Jeans
+Rs. 1,377 Rs. 2,599 (47% off)</span>
+                <span class="reporter-method-output">LEVIS
+Washed Slim Fit Jeans
+Rs. 2,099 Rs. 2,799 (25% off)</span>
+                <span class="reporter-method-output">G STAR RAW
+3301 Mid Wash Slim Jeans
+Rs. 5,599 Rs. 9,999 (44% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Mid-Rise Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">Campus Sutra
+Lightly Washed Slim Fit Jogger Jeans
+Rs. 900 Rs. 1,999 (55% off)</span>
+                <span class="reporter-method-output">DNMX
+Mid-Rise Skinny Jeans
+Rs. 679 Rs. 799 (15% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Mid-Wash Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">Pepe Jeans
+Lightly Washed Relaxed Fit Jeans
+Rs. 2,249 Rs. 2,999 (25% off)</span>
+                <span class="reporter-method-output">Pepe Jeans
+Mid-Rise Lightly Washed Jeans
+Rs. 1,799 Rs. 2,999 (40% off)</span>
+                <span class="reporter-method-output">Pepe Jeans
+Lightly Washed Mid-Rise Slim Jeans
+Rs. 2,999 </span>
+                <span class="reporter-method-output">GAS
+Norton Distressed Tapered Jeans
+Rs. 4,159 Rs. 7,999 (48% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Mid-Wash Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">DNMX
+Mid-Rise Skinny Jeans
+Rs. 679 Rs. 799 (15% off)</span>
+                <span class="reporter-method-output">DNMX
+Mid-Rise Slim Fit Jeans
+Rs. 849 Rs. 999 (15% off)</span>
+                <span class="reporter-method-output">JOHN PLAYERS JEANS
+Washed Stretchable Slim Fit Jeans
+Rs. 1,349 Rs. 1,799 (25% off)</span>
+                <span class="reporter-method-output">DNMX
+Lightly Washed Skinny Fit Jeans
+Rs. 1,349 Rs. 1,499 (10% off)</span>
+                <span class="reporter-method-output">ARMANI EXCHANGE
+Slim Fit Mid-Rise Jeans
+Rs. 7,669 Rs. 12,999 (41% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Mid-Wash Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">DNMX
+Mid-Rise Skinny Fit Jeans
+Rs. 849 Rs. 999 (15% off)</span>
+                <span class="reporter-method-output">LEVIS
+Washed Slim Fit Jeans
+Rs. 2,155 Rs. 2,799 (23% off)</span>
+                <span class="reporter-method-output">UNITED COLORS OF BENETTON
+Mid-Rise Skinny Jeans
+Rs. 1,850 Rs. 3,699 (50% off)</span>
+                <span class="reporter-method-output">Hubberholme
+Mid-Wash Slim Fit Jeans
+Rs. 595 Rs. 1,699 (65% off)</span>
+                <span class="reporter-method-output">LEVIS
+Washed Skinny Jeans
+Rs. 2,699 Rs. 2,999 (10% off)</span>
+                <span class="reporter-method-output">LEVIS
+512 Slim Fit Tapered Jeans
+Rs. 2,274 Rs. 3,499 (35% off)</span>
+                <span class="reporter-method-output">G STAR RAW
+3301 Slim Fit Jeans
+Rs. 10,999 </span>
+                <span class="reporter-method-output">LEVIS
+Washed Slim Fit Jeans
+Rs. 2,155 Rs. 2,799 (23% off)</span>
+                <span class="reporter-method-output">DENIZEN FROM LEVIS
+204 Troy Super Skinny Fit Jeans
+Rs. 1,364 Rs. 2,099 (35% off)</span>
+                <span class="reporter-method-output">Product is Searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchTopics(Returns FAQs)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Topics loaded are: 8</span>
+                <span class="reporter-method-output">Shipping FAQs</span>
+                <span class="reporter-method-output">Cancellation FAQs</span>
+                <span class="reporter-method-output">Payment FAQs</span>
+                <span class="reporter-method-output">Returns FAQs</span>
+                <span class="reporter-method-output">AJIO Wallet</span>
+                <span class="reporter-method-output">Account & Shopping</span>
+                <span class="reporter-method-output">Loyalty Rewards</span>
+                <span class="reporter-method-output">Precious Jewellery</span>
+                <span class="reporter-method-output">Topic is not searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchTopics(Shipping FAQs)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Topics loaded are: 8</span>
+                <span class="reporter-method-output">Shipping FAQs</span>
+                <span class="reporter-method-output">Cancellation FAQs</span>
+                <span class="reporter-method-output">Payment FAQs</span>
+                <span class="reporter-method-output">Returns FAQs</span>
+                <span class="reporter-method-output">AJIO Wallet</span>
+                <span class="reporter-method-output">Account & Shopping</span>
+                <span class="reporter-method-output">Loyalty Rewards</span>
+                <span class="reporter-method-output">Precious Jewellery</span>
+                <span class="reporter-method-output">Topic is not searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchTopics(Payment FAQs)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Topics loaded are: 8</span>
+                <span class="reporter-method-output">Shipping FAQs</span>
+                <span class="reporter-method-output">Cancellation FAQs</span>
+                <span class="reporter-method-output">Payment FAQs</span>
+                <span class="reporter-method-output">Returns FAQs</span>
+                <span class="reporter-method-output">AJIO Wallet</span>
+                <span class="reporter-method-output">Account & Shopping</span>
+                <span class="reporter-method-output">Loyalty Rewards</span>
+                <span class="reporter-method-output">Precious Jewellery</span>
+                <span class="reporter-method-output">Topic is not searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProducts(Sarees)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Products loaded are: 45</span>
+                <span class="reporter-method-output">SATYA PAUL
+Polka-Dot Print Saree with Contrast Border
+Rs. 23,597 Rs. 39,995 (41% off)</span>
+                <span class="reporter-method-output">SATYA PAUL
+Floral Print Chiffon Saree
+Rs. 8,847 Rs. 14,995 (41% off)</span>
+                <span class="reporter-method-output">Choiceit
+Floral Print Traditional Saree
+Rs. 800 Rs. 1,999 (60% off)</span>
+                <span class="reporter-method-output">SAINOOR
+Printed Traditional Saree
+Rs. 806 Rs. 2,240 (64% off)</span>
+                <span class="reporter-method-output">SATYA PAUL
+Floral Print Chiffon Saree
+Rs. 7,348 Rs. 14,995 (51% off)</span>
+                <span class="reporter-method-output">AWESOME
+Awesome Pure Silk Silver Zari Mini Checks Saree
+Rs. 800 Rs. 1,999 (60% off)</span>
+                <span class="reporter-method-output">Manohari
+Abstract Print Traditional Saree
+Rs. 3,779 Rs. 6,999 (46% off)</span>
+                <span class="reporter-method-output">PRATHAM BLUE
+Silk Embroidered Saree
+Rs. 1,080 Rs. 3,999 (73% off)</span>
+                <span class="reporter-method-output">AARRAH
+Woven Pattern Silk Blend Saree
+Rs. 865 Rs. 2,060 (58% off)</span>
+                <span class="reporter-method-output">Aashvi Creation
+Georgette Saree with Unstitched Blouse Piece
+Rs. 774 Rs. 4,299 (82% off)</span>
+                <span class="reporter-method-output">Varkala Silk Sarees
+Solid Traditional Saree
+Rs. 1,341 Rs. 2,438 (45% off)</span>
+                <span class="reporter-method-output">SAINOOR
+Printed Traditional Saree
+Rs. 803 Rs. 2,060 (61% off)</span>
+                <span class="reporter-method-output">APNISHA
+Embellished Saree with Blouse
+Rs. 1,075 Rs. 2,499 (57% off)</span>
+                <span class="reporter-method-output">Red Round
+Red Round Red Woven Traditional Saree with Unstitched Blouse
+Rs. 742 Rs. 2,119 (65% off)</span>
+                <span class="reporter-method-output">Saree mall
+Silk Blend Saree with Embellished Border
+Rs. 1,080 Rs. 3,599 (70% off)</span>
+                <span class="reporter-method-output">ANNI DESIGNER
+Traditional Saree with Contrast Border
+Rs. 1,346 Rs. 5,385 (75% off)</span>
+                <span class="reporter-method-output">Saree mall
+Patola Silk Banarasi Saree
+Rs. 821 Rs. 2,649 (69% off)</span>
+                <span class="reporter-method-output">SATYA PAUL
+Sequinned Georgette Saree
+Rs. 22,417 Rs. 37,995 (41% off)</span>
+                <span class="reporter-method-output">SILK LAND
+Printed Traditional Saree
+Rs. 2,500 Rs. 4,999 (50% off)</span>
+                <span class="reporter-method-output">GRIVA DESIGNER
+Traditional Saree with Zari Border
+Rs. 1,800 Rs. 3,999 (55% off)</span>
+                <span class="reporter-method-output">Mimosa
+Art Silk Traditional Saree
+Rs. 2,347 Rs. 6,519 (64% off)</span>
+                <span class="reporter-method-output">Saree mall
+Linen Printed Saree
+Rs. 1,023 Rs. 3,299 (69% off)</span>
+                <span class="reporter-method-output">AARRAH
+Woven Design Silk Saree with Zari Border
+Rs. 968 Rs. 2,060 (53% off)</span>
+                <span class="reporter-method-output">FOUR SEASONS
+Geometric Print Saree with Tassels
+Rs. 999 Rs. 3,330 (70% off)</span>
+                <span class="reporter-method-output">SATRANI
+Khadi Cotton Woven Saree with Blouse Piece
+Rs. 996 Rs. 2,929 (66% off)</span>
+                <span class="reporter-method-output">FOUR SEASONS
+Poly Georgette Mukaish Embellished Saree
+Rs. 899 Rs. 2,997 (70% off)</span>
+                <span class="reporter-method-output">SILK LAND
+Saree with Contrast Border
+Rs. 2,500 Rs. 4,999 (50% off)</span>
+                <span class="reporter-method-output">APNISHA
+Floral Print Cotton Saree with Satin Border
+Rs. 585 Rs. 1,299 (55% off)</span>
+                <span class="reporter-method-output">LYUNICA
+Floral Pattern Traditional Saree with Tassels
+Rs. 880 Rs. 2,199 (60% off)</span>
+                <span class="reporter-method-output">Pothys
+Pothys Pure Soft Silk Saree With Contrast Pallu
+Rs. 10,805 </span>
+                <span class="reporter-method-output">Aashvi Creation
+Woven Pattern Kanjivaram Art Silk Blend Saree
+Rs. 946 Rs. 4,299 (78% off)</span>
+                <span class="reporter-method-output">AWESOME
+Checked Traditional Saree with Contrast Border
+Rs. 1,250 Rs. 2,499 (50% off)</span>
+                <span class="reporter-method-output">AWESOME
+Traditional Saree with Contrast Border
+Rs. 1,200 Rs. 2,999 (60% off)</span>
+                <span class="reporter-method-output">SILK LAND
+Printed Traditional Saree
+Rs. 2,107 Rs. 4,299 (51% off)</span>
+                <span class="reporter-method-output">Saree mall
+Silk Blend Saree with Fringes
+Rs. 1,012 Rs. 3,749 (73% off)</span>
+                <span class="reporter-method-output">Desh Bidesh
+Desh Bidesh Women's Traditional Bengal Handloom Tant Dhakai Jamdani Cotton Saree
+Rs. 2,632 Rs. 8,489 (69% off)</span>
+                <span class="reporter-method-output">VASTRANAND
+Saree with Contrast Border
+Rs. 2,273 Rs. 4,545 (50% off)</span>
+                <span class="reporter-method-output">AWESOME
+Awesome Designer Pure Silk Saree with Jaccaurd Saree
+Rs. 1,000 Rs. 1,999 (50% off)</span>
+                <span class="reporter-method-output">HARPITA
+Embellished Pre-stitched Saree
+Rs. 1,099 Rs. 1,999 (45% off)</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+Saree with Woven Pattern
+Rs. 639 Rs. 999 (36% off)</span>
+                <span class="reporter-method-output">NANDA SILK MILLS
+Striped Saree with Tassels
+Rs. 900 Rs. 1,699 (47% off)</span>
+                <span class="reporter-method-output">APNISHA
+Embellished Contrast Border Saree
+Rs. 720 Rs. 1,999 (64% off)</span>
+                <span class="reporter-method-output">Saree mall
+Pashmina Silk Saree with Unstitched Blouse
+Rs. 1,242 Rs. 3,449 (64% off)</span>
+                <span class="reporter-method-output">EXCLUSIVE
+YESPOHO
+Textured Saree with Zari Border
+Rs. 2,380 Rs. 6,799 (65% off)</span>
+                <span class="reporter-method-output">Mimosa
+Floral Print Saree with Contrast Border
+Rs. 2,408 Rs. 5,599 (57% off)</span>
+                <span class="reporter-method-output">Product is Searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchTopics(Cancellation FAQs)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Topics loaded are: 8</span>
+                <span class="reporter-method-output">Shipping FAQs</span>
+                <span class="reporter-method-output">Cancellation FAQs</span>
+                <span class="reporter-method-output">Payment FAQs</span>
+                <span class="reporter-method-output">Returns FAQs</span>
+                <span class="reporter-method-output">AJIO Wallet</span>
+                <span class="reporter-method-output">Account & Shopping</span>
+                <span class="reporter-method-output">Loyalty Rewards</span>
+                <span class="reporter-method-output">Precious Jewellery</span>
+                <span class="reporter-method-output">Topic is not searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProducts(Kurti)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total no of Products loaded are: 45</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+Block Print A-line Kurti
+Rs. 538 Rs. 699 (23% off)</span>
+                <span class="reporter-method-output">QUICK VIEW
+WOMEN TOUCH
+Floral Print Straight Kurta
+Rs. 920 Rs. 1,999 (54% off)</span>
+                <span class="reporter-method-output">WOMEN TOUCH
+Straight Kurta with Floral Detail
+Rs. 880 Rs. 1,999 (56% off)</span>
+                <span class="reporter-method-output">WOMEN TOUCH
+Floral Print Straight Kurta
+Rs. 880 Rs. 1,999 (56% off)</span>
+                <span class="reporter-method-output">WOMEN TOUCH
+Floral Print Straight Kurta
+Rs. 880 Rs. 1,999 (56% off)</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+Block Print Anarkali Kurti
+Rs. 559 Rs. 699 (20% off)</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+High-Low Kurti with Tie-Up
+Rs. 538 Rs. 699 (23% off)</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+Block Print A-line Kurti
+Rs. 538 Rs. 699 (23% off)</span>
+                <span class="reporter-method-output">WOMEN TOUCH
+Printed Pure Cotton Straight Kurta
+Rs. 880 Rs. 1,999 (56% off)</span>
+                <span class="reporter-method-output">CEE 18
+Indian Print A-line Kurti
+Rs. 900 Rs. 1,999 (55% off)</span>
+                <span class="reporter-method-output">AKS
+Geometric Print A-line Tunic
+Rs. 509 Rs. 999 (49% off)</span>
+                <span class="reporter-method-output">ANAITA
+Embroidered Straight Kurti
+Rs. 442 Rs. 1,229 (64% off)</span>
+                <span class="reporter-method-output">ANAITA
+Floral Embroidered Straight Kurti
+Rs. 442 Rs. 1,229 (64% off)</span>
+                <span class="reporter-method-output">SGRF
+Floral Embroidered Flared Kurta
+Rs. 809 Rs. 1,499 (46% off)</span>
+                <span class="reporter-method-output">Biba
+Embroidered Fit & Flared Kurta
+Rs. 832 Rs. 2,599 (68% off)</span>
+                <span class="reporter-method-output">ANAITA
+Embroidered Straight Kurti
+Rs. 442 Rs. 1,229 (64% off)</span>
+                <span class="reporter-method-output">WOMEN TOUCH
+Floral Print Straight Kurta
+Rs. 880 Rs. 1,999 (56% off)</span>
+                <span class="reporter-method-output">VBUYZ
+Embellished Round-Neck Straight Kurti
+Rs. 1,050 Rs. 2,999 (65% off)</span>
+                <span class="reporter-method-output">Tissue
+Floral Print Round-Neck Straight Kurti
+Rs. 490 Rs. 999 (51% off)</span>
+                <span class="reporter-method-output">VBUYZ
+Embroidered Straight Kurti
+Rs. 850 Rs. 2,499 (66% off)</span>
+                <span class="reporter-method-output">Bhama Couture
+Indian Print Flared Kurti
+Rs. 810 Rs. 1,799 (55% off)</span>
+                <span class="reporter-method-output">FUSION
+Printed Flared Kurta with Handkerchief Hemline
+Rs. 494 Rs. 1,299 (62% off)</span>
+                <span class="reporter-method-output">Stylum
+Cartoon Print Flared Kurta
+Rs. 780 Rs. 2,000 (61% off)</span>
+                <span class="reporter-method-output">Myshka
+Striped Button-Down Straight Kurta
+Rs. 600 Rs. 1,199 (50% off)</span>
+                <span class="reporter-method-output">WOMEN TOUCH
+Floral Print Straight Kurta
+Rs. 880 Rs. 1,999 (56% off)</span>
+                <span class="reporter-method-output">WOMEN TOUCH
+Straight Kurta with 3/4th Sleeves
+Rs. 880 Rs. 1,999 (56% off)</span>
+                <span class="reporter-method-output">KIPEK
+Straight Tunic with Lace Detail
+Rs. 576 Rs. 1,799 (68% off)</span>
+                <span class="reporter-method-output">CEE 18
+Floral Print A-line Kurti with Tie-Up
+Rs. 900 Rs. 1,999 (55% off)</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+Block Print Straight Kurti
+Rs. 524 Rs. 699 (25% off)</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+Block Print A-line Kurti
+Rs. 538 Rs. 699 (23% off)</span>
+                <span class="reporter-method-output">Svrnaa
+Women Chevron Print Straight Kurta with Wooden-Button Plackets
+Rs. 439 Rs. 799 (45% off)</span>
+                <span class="reporter-method-output">INDIWEST
+Printed Flared Kurta
+Rs. 450 Rs. 899 (50% off)</span>
+                <span class="reporter-method-output">Jaipur Kurti
+Straight Kurta with Pintucks
+Rs. 635 Rs. 1,549 (59% off)</span>
+                <span class="reporter-method-output">Bhama Couture
+Geometric Pattern Tunic with Embellished
+Rs. 840 Rs. 1,999 (58% off)</span>
+                <span class="reporter-method-output">MEERANSHI
+A-line Kurti with 3/4th Sleeves
+Rs. 625 Rs. 2,499 (75% off)</span>
+                <span class="reporter-method-output">ANAITA
+Floral Embroidered Straight Kurti
+Rs. 442 Rs. 1,229 (64% off)</span>
+                <span class="reporter-method-output">VBUYZ
+Textured Straight Tunic with Applique
+Rs. 850 Rs. 2,499 (66% off)</span>
+                <span class="reporter-method-output">Myshka
+Floral Print Flared Kurta with Band Collar
+Rs. 495 Rs. 1,099 (55% off)</span>
+                <span class="reporter-method-output">Alena
+Indian Kurta
+Rs. 504 Rs. 1,399 (64% off)</span>
+                <span class="reporter-method-output">CEE 18
+Floral Print Maternity A-line Kurta
+Rs. 860 Rs. 1,999 (57% off)</span>
+                <span class="reporter-method-output">Myshka
+Printed Straight Kurta
+Rs. 680 Rs. 1,699 (60% off)</span>
+                <span class="reporter-method-output">OM SAI LATEST CREATION
+Striped A-line Kurti
+Rs. 624 Rs. 2,599 (76% off)</span>
+                <span class="reporter-method-output">FUSION
+Printed Flared Kurta with Tie-Up
+Rs. 390 Rs. 999 (61% off)</span>
+                <span class="reporter-method-output">AVAASA SET
+Floral Print Flared Kurta with Tie-Up
+Rs. 735 Rs. 1,499 (51% off)</span>
+                <span class="reporter-method-output">TEAL19
+Embroidered Netted A-line Kurti
+Rs. 756 Rs. 2,699 (72% off)</span>
+                <span class="reporter-method-output">Product is Searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testscripts.TC_AjioCustomerCare_02</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome, https://www.ajio.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchTopics(Shipping FAQs)</span>
+                <span class="method-start">42582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchTopics(Cancellation FAQs)</span>
+                <span class="method-start">64525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchTopics(Payment FAQs)</span>
+                <span class="method-start">84986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchTopics(Returns FAQs)</span>
+                <span class="method-start">104761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123661 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testscripts.TC_AjioSearchProduct_01</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome, https://www.ajio.com/)</span>
+                <span class="method-start">123999 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchProducts(Jackets)</span>
+                <span class="method-start">144877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchProducts(Jeans)</span>
+                <span class="method-start">170650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchProducts(Sarees)</span>
+                <span class="method-start">194868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchProducts(Kurti)</span>
+                <span class="method-start">219267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">240988 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation" thread-count="5" parallel="tests">
+<listeners>
+ <listener class-name="com.qa.utility.Reporting"></listener>
+</listeners>
+<parameter name="Browser" value="Chrome"/>
+<test thread-count="5" name="Functional Testing for Ajio">
+ <parameter name="url" value="https://www.ajio.com/"/>
+  <classes>
+     
+      <class name="com.qa.testscripts.TC_AjioSearchProduct_01"/>
+      <class name="com.qa.testscripts.TC_AjioCustomerCare_02"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
